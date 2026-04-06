@@ -1,5 +1,28 @@
-.venv/
-.vscode/
+# --- Python 관련 ---
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+ENV/
+build/
+dist/
+*.egg-info/
+
+# --- VS Code 관련 ---
+.vscode/
+*.code-workspace
+
+# --- OS 시스템 파일 (Mac & Windows) ---
 .DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# --- 기타 ---
+*.log
