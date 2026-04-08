@@ -32,3 +32,4 @@ df_sample = df.sample(n=1000, random_state=42)
 # 전체 산점도 행렬 그리기
 sns.pairplot(df_sample, hue='Churn', palette='husl')
 plt.show()
+
